@@ -10,8 +10,6 @@ White: #FFF
 .navbar{
     display: flex;
     height: 50px;
-    border-style: solid;
-    border-color: aqua;
     align-content: space-between;
 }
 
@@ -60,14 +58,13 @@ White: #FFF
     text-align: center;
     text-decoration: underline;
     color: black;
-    text-decoration-color:aqua;
+    text-decoration-color:#00B172;
     text-decoration-skip: none;
 
 }
 .about-spotify{
     display: flex;
     justify-content: space-evenly;
-    border:2px solid black;
     padding: 20px;
     width: 1100px;
     justify-self:center;
@@ -136,7 +133,6 @@ White: #FFF
 }
 
 .about{
-    border: 2px solid rgb(206, 22, 22);
     margin-top: -48px;
     padding: 15px;
 }
