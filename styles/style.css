@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+
+.navbar{
+    display: flex;
+    height: 50px;
+    border-style: solid;
+    border-color: aqua;
+    align-content: space-between;
+}
+
+.logo img{
+    width:100px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.navitems{
+    margin-left: 750px;
+}
+
+.navitems ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 20px;
+    justify-content: space-between;
+
+   
+    
+}
+.navitems ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+.container img{
+    width:1260px;
+}
+
+.header{
+    position: relative;
+}
+.header{
+    text-align: center;
+    margin-top: -550px;
+    color: white;
+    margin-bottom: 400px;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.container a h2{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    text-decoration-color:aqua;
+    text-decoration-skip: none;
+
+}
+.about-spotify{
+    display: flex;
+    justify-content: space-evenly;
+    border:2px solid black;
+    padding: 20px;
+    width: 1100px;
+    justify-self:center;
+    margin: auto;
+}
+
+.songs{
+    width: 300px;
+  
+}
+.songs img{
+    width: 150px;
+}
+.about-spotify .songs{
+    text-align: center;
+}
+
+
+
+.about-spotify .songs h3{
+    color: #00B172;
+}
+.music{
+    width: 300px;
+}
+
+.music img{
+    width: 150px;
+    
+}
+.about-spotify .music{
+    text-align: center;
+}
+
+.about-spotify .music{
+    text-align: center;
+}
+
+
+
+.about-spotify .music h3{
+    color: #00B172;
+}
+
+.stream{
+    width: 300px;
+}
+.stream img{
+    width: 150px;
+    
+}
+
+.about-spotify .stream{
+    text-align: center;
+}
+
+.about-spotify .stream{
+    text-align: center;
+}
+
+
+
+.about-spotify .stream h3{
+   
+    color:#00B172;
+}
+
+.about{
+    border: 2px solid rgb(206, 22, 22);
+    margin-top: -48px;
+    padding: 15px;
+}
+
+.myapp{
+    background-color: #00B172;
+    margin: auto;
+    width: 1180px;
+    display: flex;
+
+}
+
+.myapp .app{
+    color:#FFF;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.myapp .app h2{
+    text-decoration: underline;
+}
+
+.myapp .app {
+    font-size: medium;
+}
+.icons{
+    display: flex;
+    
+    flex-direction: row;
+}
+.icons .white-icon{
+    position: absolute;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.icons .kanye{
+    height: 420px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 350px;
+
+}
